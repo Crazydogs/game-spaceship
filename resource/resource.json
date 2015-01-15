@@ -1,0 +1,13 @@
+{
+"resources":
+	[
+		{"name":"ship","type":"image","url":"assets/ship.png"},
+		{"name":"bullet","type":"image","url":"assets/bullet.png"},
+        {"name":"description","type":"json","url":"config/description.json"}
+	],
+
+"groups":
+	[
+        {"name":"preload","keys":"bullet,ship"}
+	]
+}
