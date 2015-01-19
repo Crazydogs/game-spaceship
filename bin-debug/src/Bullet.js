@@ -43,7 +43,7 @@ var Bullet = (function (_super) {
             var obj = _this.bulletList[i].obj;
             var data = _this.bulletList[i].data;
             if (obj.x > _this.stage.stageWidth || obj.y > _this.stage.stageHeight || obj.x + data.width < 0 || obj.y + data.heigth < 0) {
-                removeList.push(item);
+                removeList.push(obj);
             }
         }
         // 子弹碰撞检测
